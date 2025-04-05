@@ -1,0 +1,27 @@
+Class Shape {
+private String color;
+public Shape(String color) {
+System.out.println("A shape of color "+color+" has been created.");
+this.color = color;
+}
+public void displayColor() {
+}
+System.out.println("Color:
++ color);
+lass Circle extends Shape {
+private double radius;
+public Circle (String color, double radius) {
+}
+super(color);
+this.radius = radius;
+System.out.println("Circle created with radius: " + radius);
+public void area() {
+}
+double area = Math. PI * radius radius;
+System.out.println("Area of Circle: " + area);
+lass Rectangle extends Shape {
+private double length;
+private double width;
+public Rectangle(String color, double length, double width) {
+nts
+Editing
